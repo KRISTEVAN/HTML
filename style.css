@@ -1,0 +1,61 @@
+*, 
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(sun.jpg);
+}
+
+.container-above {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.h1-above {
+    color: rgb(255, 153, 0);
+    width: 2000;
+    font-size: 80;
+    display: flex;
+    justify-content: center;
+}
+
+.container-content {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-content {
+
+}
+
+.li-content {
+    background-color: rgb(255, 183, 0);
+    height: 100;
+    width: 340;
+    list-style-type: none;
+    
+    margin: 60px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.a-content {
+    text-decoration: none;
+    color: black;
+}
+
+.li-content:hover {
+    background-color: yellow;
+    transition: 0.4s ease-in-out;
+    transition-delay: 0.2;
+    border-radius: 5px;
+}
